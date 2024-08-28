@@ -14,6 +14,7 @@ public class Operator
 		System.out.println(a!=b);
 		boolean res=(a>b);
 		System.out.println(res);
+		// Logical operators: &&(and) ||(or) !(not) ------- Return Boolean values
 	}
 
 }
