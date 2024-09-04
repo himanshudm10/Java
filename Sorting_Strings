@@ -9,7 +9,7 @@ public class Sorting_Strings
 	public static void main(String[] args) 
 	{
 
-    //Getting Data From User
+//Getting Data From User
 
 		Scanner sc= new Scanner(System.in); 
 		String a[]= new String[5];
