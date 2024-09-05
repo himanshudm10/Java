@@ -1,0 +1,21 @@
+package Day_6;
+
+public class StringMethods 
+{
+
+	public static void main(String[] args)
+	{
+		
+		String s="Woocome to Jxvx";
+		System.out.println(s.charAt(3));
+		System.out.println(s.replace("Woo", "wel").replace('x', 'a').toUpperCase());
+		System.out.println(s.substring(0,2));
+		String x="abc@gmail.com";
+		String y="abcxyz@gmail.com";
+		String a[]= x.split("@");
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		
+	}
+
+}
