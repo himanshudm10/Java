@@ -18,7 +18,7 @@ public class Reverse_String
 			reverse=reverse+word1;
 			
 		}
-		System.out.println(reverse);
+		System.out.println("Reverse String using String Methods: "+reverse);
 		
 
 //Reversing String without using String Methods
@@ -28,7 +28,7 @@ public class Reverse_String
 		{
 			rev=rev+a[i];
 		}
-		System.out.println(rev);
+		System.out.println("Reverse String w/o String Methods: "+rev);
 		
 	}
 
