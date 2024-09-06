@@ -29,6 +29,15 @@ public class Reverse_String
 			rev=rev+a[i];
 		}
 		System.out.println("Reverse String w/o String Methods: "+rev);
+
+		
+//Reversing String using in-Built functions
+		
+		StringBuilder s=new StringBuilder(word);
+		System.out.println("Reversing String using StringBuilder: "+s.reverse());
+		
+		StringBuffer y=new StringBuffer(word);
+		System.out.println("Reversing String using StringBuilder: "+y.reverse());
 		
 	}
 
